@@ -41,7 +41,7 @@ nav {
 #hello, #my_work , #stats, 
 #testimonials, #pricing, #brands, 
 #blockquote, #content1, #content2, #content3,
-#skills, #video, #newsletter{
+#skills, #video, #newsletter, #contact{
 	padding-top: 5%;
 }
 
@@ -88,7 +88,10 @@ nav {
 	background-color: #161616;
 }
 
-
+#video > .jumbotron {
+	background-color: #161616;
+	height: 300px;
+}
 
 .title_h4 {
 	font-size: 2rem;
@@ -129,8 +132,23 @@ nav {
 	letter-spacing: .2rem;
 }
 
+.map_image {
+	overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+
+.map_image iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 footer {
-	margin-top: 15em;
+	/*margin-top: 15em;*/
+	margin-top: 2.5em;
 }
 
 @media (max-width: 768px) {
