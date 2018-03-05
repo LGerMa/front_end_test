@@ -1,0 +1,154 @@
+body {
+	background-color: #111111;
+	color: #fff;
+}
+
+header {
+	height: 100vh;
+	background-color: #161616;
+}
+
+nav {
+	background-color: #161616;
+}
+
+.principal {
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;*/
+	height: 100vh;
+	position: relative;
+	padding: 30px 15px 0;
+}
+
+.principal_h6 {
+	font-weight: 600;
+	letter-spacing: 0.5rem;
+	text-transform: uppercase;
+}
+
+.principal_limiter {
+	background-color: #fff;
+	width: 20%;
+	margin-left: -2.5em;
+}
+
+.principal_description{
+	font-weight: 250;
+	line-height: 1.5;
+}
+
+#hello, #my_work , #stats, #testimonials, #pricing, #brands, #newsletter{
+	padding-top: 5%;
+}
+
+.hello_box-image{
+	background-color: #333438;
+	/*position: relative;
+	margin: 0 auto;*/
+	box-shadow: 0 10px 60px rgba(0, 0, 0, 1);
+	margin-bottom: 1em;
+}
+
+
+.count{
+	font-size: 3rem;
+	letter-spacing: .2rem;
+	line-height: 1.5;
+	/*background: linear-gradient(rgba(255,0,0,0), #5128fe);*/
+}
+
+.count_name{
+	letter-spacing: .3rem;
+	text-transform: uppercase;
+}
+
+
+.stats_limiter {
+	background-color: #fff;
+	width: 50%;
+	margin-right: 0px;
+}
+
+.pricing{
+	height: 90vh;
+}
+
+.pricing1, .pricing3{
+	background-color: #333438;
+}
+
+.pricing2, .pricing4{
+	background-color: #161616;
+}
+
+
+
+.title_h4 {
+	font-size: 2rem;
+	letter-spacing: .3rem;
+	line-height: 1.5;
+	margin-top: 1em;
+}
+
+.pricing_options{
+	letter-spacing: .1rem;
+	margin-bottom: 1em;
+}
+
+.pricing_option{
+	font-size: 1rem;
+	font-weight: 300;
+	opacity: .5;
+	text-transform: uppercase;
+}
+
+.pricing_footer > div > div > h4 {
+	font-size: 2rem;
+	letter-spacing: .3rem;
+	line-height: 1.5;
+}
+
+.form_suscribe > input, button {
+	background-color: transparent;
+	color: #fff;
+	font-weight: 500;
+	height: 100%;
+	letter-spacing: .2rem;
+}
+
+footer {
+	margin-top: 15em;
+}
+
+@media (max-width: 768px) {
+	.title_h2 {
+		 font-size: 2rem;
+	}
+
+	.hello_box-image{
+		width: 200px;
+		height: 270px;
+	}
+}
+
+@media (min-width: 768px){
+	.title_h2 {
+		 font-size: 3rem;
+	}
+
+	.hello_box-image{
+		width: 400px;
+		height: 540px;
+	}
+
+	.pricing{
+		height: 75vh;
+	}
+}
+
+@media (min-width: 1024px){
+	.title_h2 {
+		 font-size: 3.5rem;
+	}
+}
