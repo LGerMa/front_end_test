@@ -38,7 +38,10 @@ nav {
 	line-height: 1.5;
 }
 
-#hello, #my_work , #stats, #testimonials, #pricing, #brands, #newsletter{
+#hello, #my_work , #stats, 
+#testimonials, #pricing, #brands, 
+#blockquote, #content1, #content2, #content3,
+#skills, #video, #newsletter{
 	padding-top: 5%;
 }
 
@@ -50,6 +53,9 @@ nav {
 	margin-bottom: 1em;
 }
 
+.img_content{
+	background-color: #333438;
+}
 
 .count{
 	font-size: 3rem;
@@ -91,6 +97,12 @@ nav {
 	margin-top: 1em;
 }
 
+.title_h3 {
+	font-size: 1.3rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+}
+
 .pricing_options{
 	letter-spacing: .1rem;
 	margin-bottom: 1em;
@@ -126,9 +138,37 @@ footer {
 		 font-size: 2rem;
 	}
 
-	.hello_box-image{
+	.hello_box-image, .img_content{
 		width: 200px;
 		height: 270px;
+	}
+
+	.form_suscribe > button {
+		width: 100%;
+	}
+
+	.number_top_left {
+		display: block;
+		font-size: 4rem;
+		font-weight: 700;
+		position: absolute;
+		left: 3rem;
+		top: -3rem;
+		z-index: 2;
+	}
+
+	.number_top_right {
+		display: block;
+		font-size: 4rem;
+		font-weight: 700;
+		position: absolute;
+		right: 1rem;
+		top: -3rem;
+		z-index: 2;
+	}
+
+	.img_box_content{
+		margin-left: 20%;
 	}
 }
 
@@ -137,13 +177,33 @@ footer {
 		 font-size: 3rem;
 	}
 
-	.hello_box-image{
+	.hello_box-image, .img_content{
 		width: 400px;
 		height: 540px;
 	}
 
+	.number_top_left {
+		display: block;
+		font-size: 7rem;
+		font-weight: 700;
+		position: absolute;
+		left: -35px;
+		top: -90px;
+		z-index: 2;
+	}
+
+	.number_top_right {
+		display: block;
+		font-size: 7rem;
+		font-weight: 700;
+		position: absolute;
+		right: 70px;
+		top: -90px;
+		z-index: 2;
+	}
+
 	.pricing{
-		height: 75vh;
+		height: 75;
 	}
 }
 
